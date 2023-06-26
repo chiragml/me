@@ -541,7 +541,7 @@ form button:hover {
     .mobile-nav-toggle {
       display: block;
       position: fixed;
-      background: url('/assets/img/hamburger-button.png');
+      background: url('../assets/img/hamburger-button.png');
       width: 4rem;
       background-size: cover;
       color: white;
