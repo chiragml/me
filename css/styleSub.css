@@ -21,6 +21,14 @@ a {
   align-items: center;
   justify-content: center;
 }
+h1 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: white;
+  padding: 20px 10px;
+}
 
 /* Head section */
 .head {
@@ -340,25 +348,41 @@ a {
 /* End Technical Skills sec */
 /* WorkEx */
 
-#workEx {
+#alternating-workx {
   background-color: #1a2238;
 }
-#work {
-  padding: 20px;
+#alternating-workx hr {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin-bottom: 10px;
 }
-#workEx .image {
+.alt-workEx {
+  background-color: #2f3b5c;
+}
+
+.workEx {
+  background-color: #1a2238;
+}
+.work {
+  padding-bottom: 20px;
+}
+/* .workEx .image {
   width: 70%;
-}
-#work h3 {
+} */
+ .work {
+  padding: 40px;
+ }
+.work h3 {
   display: block;
   width: fit-content;
   font-size: 2.5rem;
   position: relative;
   color: #ff6a3d;
   font-style: oblique;
-  padding: 50px 0;
+  padding: 20px 0;
 }
-#work p {
+.work p {
   display: block;
   width: fit-content;
   font-size: 2rem;
