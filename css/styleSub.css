@@ -294,7 +294,10 @@ h1 {
 }
 
 .image {
-  width: 50%;
+  width: 60%;
+}
+.alt-img {
+  margin-right: 0px;
 }
 
 .subContainer h1 {
@@ -330,7 +333,12 @@ h1 {
 }
 
 .tech_img {
-  width: 100%;
+  /* width: 100%;  */
+  margin-right: 0px;
+  /* Set the desired width */
+  height: 50%; 
+  /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
 }
 
 /* Adjust the z-index and position for the navbar */

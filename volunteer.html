@@ -17,7 +17,7 @@
       <div>
         <h3 class="me">
           <a href="index.html" class="home">Chirag Malhotra</a
-          ><a href="#" class="home"> &lt;/Volunteering &gt; </a>
+          ><a href="#" class="home"> &lt;/Projects &gt; </a>
         </h3>
       </div>
 
@@ -31,7 +31,7 @@
       <nav>
         <ul class="primary_nav flex" data-visible="false" id="primary_nav">
           <li class="section1">
-            <a href="#"> <span aria-hidden="true"></span>Work </a>
+            <a href="#alternating-project"> <span aria-hidden="true"></span>Work </a>
           </li>
           <li class="section4">
             <a href="#contactMe">
@@ -44,26 +44,185 @@
     <section id="volunteerHead">
       <div class="head container">
         <div>
-          <h1>Helping others<span></span></h1>
-          <h1>Is a great source of Happiness!<span></span></h1>
+          <h1>World Doesn't Pay Men For What they Know,<span></span></h1>
+          <h1>It Pay's them for what they do - Henry Ford!<span></span></h1>
           <hr />
           <h3>
             INTEREST AREAS : Software Engineering, Artificial Intelligence,
             Machine Learning<span></span>
           </h3>
           <h3>
-            SEEKING : SWE Opportunities for SPRING 2024, SUMMER 2024, FALL 2023
+            SEEKING : Fulltime SWE Opportunities from May 2025
             <span></span>
           </h3>
-          <h3>EXPECTED GRADUATION DATE : DEC 2024 <span></span></h3>
+          <h3>EXPECTED GRADUATION DATE : May 2025 <span></span></h3>
         </div>
       </div>
     </section>
 
-    <section id="resume">
-      <h1>volunteer Work</h1>
+    <section id="alternating-project">
+      <h1>My Projects</h1>
       <hr />
-      <h1>Section Coming Soon...</h1>
+      <div class="workEx">
+        <div class="subContainer">
+          <div class="image">
+            <img class="tech_img" src="./assets/img/diffusion.gif" alt data-position="center center">
+          </div>
+          <div class="work">
+            <h3>Diffusion Gif Generator</h3>
+            <p>
+              <a href="https://github.com/chiragml/Diffusion-Gif-Generator">GitHub Link</a>
+              <ul>
+                <li>Explored stable-diffusion text to image model and modified it to take in an image and a prompt as inputs and return a GIF.</li>
+                <li>Deployed CPU offloading, memory and attention optimization to bring generation time down from 40 min to 9 min.</li>
+                <li>Achieved 77% runtime reduction using adaptive pruning (30%) with sensitivity analysis, maintaining high-quality output.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="alt-workEx">
+        <div class="subContainer">
+          <div class="work">
+            <h3>2D Unet for semantic segmentation | Ongoing</h3>
+            <p>
+              <ul>
+                <li>Building a 2D Unet from scratch, implementing all the Conv layers and serializer and comparing it with segmentation models 2D’s Unet architecture for microscopy application.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="alt-img">
+            <img class="tech_img" src="./assets/img/workEx.gif" alt data-position="center center">
+          </div>
+        </div>
+      </div>
+      <div class="workEx">
+        <div class="subContainer">
+          <div class="image">
+            <img class="tech_img" src="./assets/img/spark.webp" alt data-position="center center">
+          </div>
+          <div class="work">
+            <h3>6 Degrees of Separation</h3>
+            <p>
+              <a href="https://github.com/chiragml/6DegreesOfSeperation">GitHub Link</a>
+              <ul>
+                <li>Designed and built a Spark application to parse and traverse a 900 Billion edges graph from twitter indicating social network.</li>
+                <li>Applied Dijkstra’s algorithm to the graph in parallel and found out the optimal cluster configuration on AWS EMR and S3.</li>
+                <li>Used RDDs to handle and distribute 2gb csv(stored as .txt) data over 8, 10 and 12 nodes for comparative analysis.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="alt-workEx">
+        <div class="subContainer">
+          <div class="work">
+            <h3>Amoung Huskies - Capture the Husky</h3>
+            <p>
+              <a href="https://github.com/chiragml/Among_huskies">GitHub Link</a>
+              <ul>
+                <li>Developed a high-performance, multi-threaded game server in D lang, leveraging the TCP/IP network protocol.</li>
+                <li>Managed 5+ concurrent client connections and achieved 60 FPS real-time state synchronization across players.</li>
+                <li>Built a game frontend using Serpent library and OOD based backend to build a static window CTF game.</li>
+                <li>Implemented a robust CI pipeline with GitHub Actions, employed Jira for project management and embraced Agile (Scrum) methodology to ensure effective team collaboration and project progress.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="alt-img">
+            <img class="tech_img" src="./assets/img/ctf.webp" alt data-position="center center">
+          </div>
+        </div>
+      </div>
+      <div class="workEx">
+        <div class="subContainer">
+          <div class="image">
+            <img class="tech_img" src="./assets/img/PhotoBook.gif" alt data-position="center center">
+          </div>
+          <div class="work">
+            <h3>Shapes (MVC) Model – View – Controller</h3>
+            <p>
+              <a href="https://github.com/chiragml/ShapesMVC">GitHub Link</a>
+              <ul>
+                <li>Developed an Interactive Java photo-album using the Model–View–Controller (MVC) architecture.</li>
+                <li>Implemented the Adapter, Command Design Pattern, and Object-Oriented Design (OOD) to enable CRUD.</li>
+                <li>Designed and built a graphical view with Java Swing featuring scrolling, detailed view information, and drop-down menus.</li>
+                <li>Developed a web-view using HTML and rigorously tested the project with JUnit, achieving 90% test coverage.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="alt-workEx">
+        <div class="subContainer">
+          <div class="work">
+            <h3>Fresh Tomatoes | Front End Back End</h3>
+            <p>
+              <ul>
+                <li>Built a responsive movie rating web app using React, Redux, and Typescript for dynamic reviews and recommendations.</li>
+                <li>Developed secure RESTful APIs with Node.js and MongoDB for user authentication and movie data management.</li>
+                <li>Designed UI/UX prototypes in Figma to implement a multi-page, personalized dashboard layout.</li>
+                <li>Deployed the front end on Netlify and back end on Render with integrated CI/CD via Git.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="alt-img">
+            <img class="tech_img" src="./assets/img/freshTomatoes.png" alt data-position="center center" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+      <div class="workEx">
+        <div class="subContainer">
+          <div class="image">
+            <img class="tech_img" src="./assets/img/chess.gif" alt data-position="center center">
+          </div>
+          <div class="work">
+            <h3>Chess Classifier DNN</h3>
+            <p>
+              <a href="https://github.com/chiragml/ChessClassifier">GitHub Link</a>
+              <ul>
+                <li>Designed 3 neural net architectures and 2 classifiers in PyTorch and using sci-kit learn for chess win-loss, and led a performance analysis with 6 ML models based on board states and 6 heuristic criteria.</li>
+                <li>Utilized Conv2d with padding and dropouts, adam optimizer, sigmoid for output layer in the convolution architecture.</li>
+                <li>Built a runnable bash script to run the entire project, save the models to pkl files and make the results replicable.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="alt-workEx">
+        <div class="subContainer">
+          <div class="work">
+            <h3>Sticky Sign</h3>
+            <p>
+              <a href="https://github.com/trobutlef/Sticky-Sign">GitHub Link</a>
+              <ul>
+                <li>Developed a pygame for gamified learning environment using less than 5 sticky notes to make ASL learning enjoyable.</li>
+                <li>Engineered a Computer Vision, feature detection, and mixed-reality-based application using Yolo and CNNs.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="alt-img">
+            <img class="tech_img" src="./assets/img/StickyLogo.png" alt data-position="center center" >
+          </div>
+        </div>
+      </div>
+      <div class="workEx">
+        <div class="subContainer">
+          <div class="image">
+            <img class="tech_img" src="./assets/img/sql.webp" alt data-position="center center">
+          </div>
+          <div class="work">
+            <h3>Readit - A reddit cli replica</h3>
+            <p>
+              <a href="https://github.com/yizucodes/readit">GitHub Link</a>
+              <ul>
+                <li>Built a CLI-based “Readit” platform (Python/MySQL) with hashed logins and advanced CRUD (procedures, triggers).</li>
+                <li>Engineered user profiles using multi-join queries for analytics and cascading triggers to maintain data integrity.</li>
+                <li>Implemented transaction-based updates for post-comment flows with partial rollbacks for error handling.</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contactMe">
@@ -71,7 +230,7 @@
         <div class="image">
           <img
             class="tech_img"
-            src="/assets/img/contactme.gif"
+            src="./assets/img/contactme.gif"
             alt
             data-position="center center"
           />
@@ -117,41 +276,19 @@
     </section>
     <footer id="footer">
       <div class="foot">
-        <div class="links">
-          <a href="https://github.com/chiragml"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="60"
-              height="60"
-              viewBox="0 0 30 30"
-            >
-              <path
-                d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
-              ></path></svg
-          ></a>
-          <a href="https://www.linkedin.com/in/chirag-malhotra-delhi/"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="50"
-              height="50"
-              viewBox="0 0 50 50"
-            >
-              <path
-                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
-              ></path></svg
-          ></a>
-          <a href="mailto:malhotra.ch@northeastern.edu" style="color: #000"
-            ><i class="fa fa-envelope" style="font-size: 48px"></i
-          ></a>
-        </div>
-        <div class="copyright">
-          <h3>Copyright <span>©</span> Chirag Malhotra 2023</h3>
-        </div>
+      <div class="links">
+          <a href="https://github.com/chiragml"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 30 30">
+              <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+          </svg></a>
+          <a href="https://www.linkedin.com/in/chirag-malhotra-delhi/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+              <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+          </svg></a>
+          <a href="mailto:malhotra.ch@northeastern.edu" style="color: #000;"><i class="fa fa-envelope" style="font-size:48px"></i></a>
       </div>
-    </footer>
-  </body>
+      <div class="copyright">
+          <h3> Copyright <span>©</span> Chirag Malhotra 2023</h3>
+      </div>
+  </div>
+  </footer>
+</body>
 </html>
