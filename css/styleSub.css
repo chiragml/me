@@ -300,6 +300,9 @@ h1 {
   margin-right: 0px;
 }
 
+.github-link {
+  color: #a90bed; /* OrangeRed color for better visibility in both modes */
+}
 .subContainer h1 {
   display: block;
   width: fit-content;
